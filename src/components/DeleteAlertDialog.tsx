@@ -41,6 +41,7 @@ export function DeleteAlertDialog({
             <Trash2Icon className="size-4" />
           )}
         </Button>
+
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>

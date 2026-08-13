@@ -19,6 +19,7 @@ function NotificationsPage() {
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
+
   useEffect(() => {
     const fetchNotifications = async () => {
       setIsLoading(true);

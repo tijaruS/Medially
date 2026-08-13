@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   description: "A modern social media platform",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,6 +48,8 @@ export default function RootLayout({
                     <div className="hidden lg:block lg:col-span-3">
                       <Sidebar />
                     </div>
+
+
 
                     <div className="lg:col-span-9">{children}</div>
                   </div>
